@@ -1,0 +1,78 @@
+*{
+     padding: 0;
+	 margin: 0;
+}
+
+body{
+	 font-family: "georgia";
+}
+
+.contenedor{
+	 background: tomato;
+	 width: 100%;
+	 margin: auto;
+}
+header{
+	 height: 350px;
+	 background-image: url("../IMG/porta.jpg");
+	 background-position: center;
+	 background-size: cover;
+}
+
+a{
+	 display: inline-block;
+	 border-radius: 30px;
+}
+
+nav ul{
+	background-color: #001158;
+	width: 100%;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li{
+	display: inline-flex;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	width: 150px;
+}
+
+nav li:hover{
+	background-color: #09378b;
+}
+
+h2, p{
+	 color: white;
+}
+
+main{
+	 background: #090808;
+	 padding: 20px 30px;
+}
+
+main .foto{
+	width: 130px;
+	height: 130px;
+	background-color: #c09ad2;
+	border-radius: 50%;
+	margin: -90px 0 20px 0;
+	border: 6px solid #ffffff;
+}
+
+main  .foto img{
+	width: 100%;
+	height: 101%;
+	border-radius: 50%;
+}
+
+footer{
+	background: #808080;
+	text-align: center;
+	padding: 25px;
+	color: white;
+}
